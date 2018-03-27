@@ -9,8 +9,7 @@ import android.view.accessibility.CaptioningManager.CaptioningChangeListener;
 
 @TargetApi(Build.VERSION_CODES.N)
 public class NougatMobileAccessibilityHelper extends
-    MarshmallowMobileAccessibilityHelperBeanMobileAccessibilityHelper {
-
+    MarshmallowMobileAccessibilityHelper {
         @Override
         public void initialize(MobileAccessibility mobileAccessibility) {
             super.initialize(mobileAccessibility);

@@ -10,7 +10,6 @@ import android.view.accessibility.CaptioningManager.CaptioningChangeListener;
 @TargetApi(Build.VERSION_CODES.M)
 public class MarshmallowMobileAccessibilityHelper extends
     KitKatMobileAccessibilityHelper {
-
         @Override
         public void initialize(MobileAccessibility mobileAccessibility) {
             super.initialize(mobileAccessibility);
